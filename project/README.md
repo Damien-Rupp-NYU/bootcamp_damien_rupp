@@ -45,6 +45,8 @@ This project aims to forecast daily demand per station to improve rebalancing de
 ## Lifecycle Mapping
 - **Framing the project** → Problem Framing & Scoping (Stage 01) → **README.md** and **stakeholder memo**
 
+- **Setup Structure and Initialize version** → Tooling Setup (Stage 02) → **README.md** and **.gitignore** and **requirement.txt**
+
 - **Get the Data** → Data acquisition and storage (Stage 04-05) → **Raw trip logs** and **weather data in /data/**
 
 - **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set**
