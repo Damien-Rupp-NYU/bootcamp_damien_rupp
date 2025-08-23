@@ -64,6 +64,16 @@ This project aims to forecast daily demand per station to improve rebalancing de
 --------------
 --------------
 
+## **Stage:**  Data Acquisition (Stage 04)
+
+- pulled from database online
+
+- data file not pushed because is to heavy for git
+
+----------------
+----------------
+
+
 ### Lifecycle Mapping
 - **Framing the project** → Problem Framing & Scoping (Stage 01) → **README.md** and **stakeholder memo**
 
@@ -71,7 +81,7 @@ This project aims to forecast daily demand per station to improve rebalancing de
 
 - **Pandas, Numpy and basic cleaning functions** → Python Fundamentals (Stage 03) → **utils.py** 
 
-- **Get the Data** → Data acquisition and storage (Stage 04-05) → **Raw trip logs** and **weather data in /data/**
+- **Get the Data** → Data acquisition (Stage 04) → **Raw trip** and **merged in a single file**
 
 - **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set**
 
