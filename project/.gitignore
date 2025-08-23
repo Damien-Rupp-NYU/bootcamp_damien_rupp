@@ -4,3 +4,5 @@ __pycache__/
 
 # Ignore envirenment files
 .env
+
+data/raw/
