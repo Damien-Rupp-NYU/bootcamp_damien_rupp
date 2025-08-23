@@ -73,6 +73,14 @@ This project aims to forecast daily demand per station to improve rebalancing de
 ----------------
 ----------------
 
+## **Stage:**  Data Storage (Stage 05)
+
+- In `data/raw` all the monthly parquet file are stored as well as the merged one
+
+- In `data/processed` I will store a processed and probably lighter parquet file.
+
+----------------
+----------------
 
 ### Lifecycle Mapping
 - **Framing the project** → Problem Framing & Scoping (Stage 01) → **README.md** and **stakeholder memo**
@@ -82,6 +90,8 @@ This project aims to forecast daily demand per station to improve rebalancing de
 - **Pandas, Numpy and basic cleaning functions** → Python Fundamentals (Stage 03) → **utils.py** 
 
 - **Get the Data** → Data acquisition (Stage 04) → **Raw trip** and **merged in a single file**
+
+- **Store the Data** → Data acquisition (Stage 04) → **data/raw** and **data/processed**
 
 - **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set**
 
