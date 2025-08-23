@@ -1,6 +1,15 @@
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
+
+def drop_column(df, col):
+    if colname in df.columns:
+        return df.drop(columns=[colname])
+    else:
+        print(f" Column '{colname}' not found — no changes made.")
+        return df
+
+
 def fill_missing_median(df, columns=None):
     df_copy = df.copy()
     if columns is None:

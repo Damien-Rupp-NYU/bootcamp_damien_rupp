@@ -82,7 +82,23 @@ This project aims to forecast daily demand per station to improve rebalancing de
 ----------------
 ----------------
 
-### Lifecycle Mapping
+
+## **Stage:**  Processing the Data (Stage 06)
+
+### Assumption : 
+- `tag` is the same for all the the entry it just says that it is in new york, we can drop it safely
+
+- `id`, `nuid`, and `name` are unique per station, so I decided to only keep the `name`
+
+- I wont be using the localisation, so I will also drop `latitude` or `longitude`
+
+- And I will also drop `extra` because it does not provide any information useful that i cant create like `total_slot` = `bikes` + `free`
+
+----------------
+----------------
+
+
+## Lifecycle Mapping
 - **Framing the project** → Problem Framing & Scoping (Stage 01) → **README.md** and **stakeholder memo**
 
 - **Setup Structure and Initialize version** → Tooling Setup (Stage 02) → **README.md** and **.gitignore** and **requirement.txt**
@@ -91,9 +107,9 @@ This project aims to forecast daily demand per station to improve rebalancing de
 
 - **Get the Data** → Data acquisition (Stage 04) → **Raw trip** and **merged in a single file**
 
-- **Store the Data** → Data acquisition (Stage 04) → **data/raw** and **data/processed**
+- **Store the Data** → Data acquisition (Stage 05) → **data/raw** and **data/processed**
 
-- **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set**
+- **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set** and **Assumption listed**
 
 
 ### Repo Plan
