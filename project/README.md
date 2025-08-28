@@ -116,6 +116,7 @@ This project aims to forecast daily demand per station to improve rebalancing de
 
 - **Explore the Data** → Data Exploration (Stage 08) → **notebook**
 
+- **Create useful features** → Feature engineering (Stage 08) → **notebook** and **.parquet file with new features saved**
 
 ### Repo Plan
 /data/, /src/, /notebooks/, /docs/ ; cadence for updates
