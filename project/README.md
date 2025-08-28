@@ -98,6 +98,7 @@ This project aims to forecast daily demand per station to improve rebalancing de
 ----------------
 
 
+
 ## Lifecycle Mapping
 - **Framing the project** → Problem Framing & Scoping (Stage 01) → **README.md** and **stakeholder memo**
 
@@ -110,6 +111,10 @@ This project aims to forecast daily demand per station to improve rebalancing de
 - **Store the Data** → Data acquisition (Stage 05) → **data/raw** and **data/processed**
 
 - **Clean the Data** → Data processing (Stage 06) → **Clean processed Data set** and **Assumption listed**
+
+- **Detect outliers** → Outlier Detection (Stage 07) 
+
+- **Explore the Data** → Data Exploration (Stage 08) → **notebook**
 
 
 ### Repo Plan
